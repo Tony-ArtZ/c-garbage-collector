@@ -35,30 +35,31 @@ The ```Makefile``` provided in the project handles the compilation and execution
     4. Makefile: Makefile for compiling the project.
     5. README.md: Project documentation.
 
-    ## Installation
+ ## Installation
 
-    To install the project, clone the repository and navigate to the project directory:
-    ```sh
-    git clone https://github.com/yourusername/c-gc.git
-    cd c-gc
-    ```
+ To install the project, clone the repository and navigate to the project directory:
+ ```sh
+ git clone https://github.com/yourusername/c-gc.git
+ cd c-gc
+ make
+ ```
 
-    ## Usage
+ ## Usage
 
-    To use the garbage collector in your own project, include `gc.h` and link against `gc.c`. Here is an example of how to integrate the garbage collector:
+ To use the garbage collector in your own project, include `gc.h` and link against `gc.c`. Here is an example of how to integrate the garbage collector:
 
-    ```c
-    #include "gc.h"
+ ```c
+ #include "gc.h"
 
-    int main() {
-        int *allocated = gc_alloc(sizeof(int));
-        gc(); // Run garbage collection
-        gc_destroy();
-        return 0;
-    }
-    ```
+ int main() {
+     int *allocated = gc_alloc(sizeof(int));
+     gc(); // Run garbage collection
+     gc_destroy();
+     return 0;
+ }
+ ```
 
-    ## Contributing
+ ## Contributing
 
-    Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code follows the project's coding standards.
+ Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code follows the project's coding standards.
 
