@@ -1,0 +1,34 @@
+# Compiled object files
+*.o
+
+# Executable files
+run
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.swo
+
+# VSCode specific files
+.vscode/
+
+# Core dumps
+core.*
+
+# Ignore build directories (if used)
+build/
+dist/
+
+# Ignore Makefile generated files
+Makefile~
+
+# System-specific files (MacOS, Linux)
+.DS_Store
+Thumbs.db
+
+# WSL specific temp files
+.cache/
