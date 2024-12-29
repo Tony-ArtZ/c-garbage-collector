@@ -39,7 +39,7 @@ The ```Makefile``` provided in the project handles the compilation and execution
 
  To install the project, clone the repository and navigate to the project directory:
  ```sh
- git clone https://github.com/yourusername/c-gc.git
+ git clone https://github.com/Tony-ArtZ/c-garbage-collector.git
  cd c-gc
  make
  ```
